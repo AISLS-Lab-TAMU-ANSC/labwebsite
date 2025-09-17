@@ -1,0 +1,87 @@
+{
+  "status": "success",
+  "result": [
+    {
+      "id": 7453,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": null,
+      "publicReview": "Shane and family are wonderful! Would definitely host again :)",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 10 },
+        { "category": "communication", "rating": 10 },
+        { "category": "respect_house_rules", "rating": 10 }
+      ],
+      "submittedAt": "2020-08-21 22:45:14",
+      "guestName": "Shane Finkelstein",
+      "listingName": "2B N1 A - 29 Shoreditch Heights",
+      "channel": "airbnb"
+    },
+    {
+      "id": 8455,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 9,
+      "publicReview": "Great location, very clean, would stay again.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 9 },
+        { "category": "communication", "rating": 8 },
+        { "category": "checkin", "rating": 9 }
+      ],
+      "submittedAt": "2021-05-12 10:23:00",
+      "guestName": "Alex Johnson",
+      "listingName": "3C W2 B - Baker Street Apartment",
+      "channel": "booking.com"
+    },
+    {
+      "id": 9233,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 4.5,
+      "publicReview": "Stylish flat, a bit noisy at night but overall solid stay.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 8 },
+        { "category": "communication", "rating": 9 },
+        { "category": "location", "rating": 7 }
+      ],
+      "submittedAt": "2022-11-02 18:45:00",
+      "guestName": "Priya Singh",
+      "listingName": "2B N1 A - 29 Shoreditch Heights",
+      "channel": "airbnb"
+    },
+    {
+      "id": 10102,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 10,
+      "publicReview": "Amazing amenities and quick responses.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 10 },
+        { "category": "communication", "rating": 10 },
+        { "category": "value", "rating": 9 }
+      ],
+      "submittedAt": "2023-07-19 08:00:00",
+      "guestName": "Taylor Brooks",
+      "listingName": "4D SE1 C - Waterloo Loft",
+      "channel": "vrbo"
+    },
+    {
+      "id": 11111,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": null,
+      "publicReview": "Comfortable bed, check-in took longer than expected.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 7 },
+        { "category": "communication", "rating": 6 },
+        { "category": "checkin", "rating": 5 }
+      ],
+      "submittedAt": "2024-03-05 16:12:00",
+      "guestName": "Morgan Lee",
+      "listingName": "3C W2 B - Baker Street Apartment",
+      "channel": "airbnb"
+    }
+  ]
+}
+
+

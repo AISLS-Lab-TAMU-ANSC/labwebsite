@@ -1,0 +1,28 @@
+{
+  "name": "flex-living-reviews",
+  "version": "1.0.0",
+  "description": "Flex Living Reviews Dashboard and API (mocked Hostaway integration)",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "flex-living",
+    "reviews",
+    "hostaway",
+    "dashboard"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
+

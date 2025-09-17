@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flex Living - Property Details</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .property-container { max-width: 960px; margin: 0 auto; padding: 24px; }
+    .reviews { margin-top: 24px; }
+    .review { background: #fff; border: 1px solid #eee; border-radius: 8px; padding: 12px; margin-bottom: 10px; }
+    .review .meta { display: flex; gap: 8px; align-items: center; font-size: 13px; color: #374151; }
+    .rating { font-weight: 600; }
+  </style>
+  <script defer src="property.js"></script>
+  <link rel="icon" href="images/tamu-logo.png" />
+</head>
+<body>
+  <div class="property-container">
+    <h1 id="propertyName">Property</h1>
+    <img src="images/BRD Design.png" alt="Property" style="width:100%; max-height: 300px; object-fit: cover; border-radius: 12px;" />
+
+    <section class="reviews">
+      <h2>Guest Reviews</h2>
+      <div id="reviews"></div>
+      <div id="noReviews" style="display:none; color:#6b7280;">No approved reviews yet.</div>
+    </section>
+  </div>
+</body>
+</html>
+
+
