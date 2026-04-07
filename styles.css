@@ -61,7 +61,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
@@ -69,7 +69,11 @@ body {
     display: flex;
     align-items: center;
     gap: 1rem;
+
+    text-decoration: none;
+    color: inherit;
 }
+
 
 .tamu-logo {
     height: 40px;
@@ -135,7 +139,7 @@ body {
 }
 
 .hero-content {
-    max-width: 1000px;
+    max-width: 1050px;
     margin: 0 auto;
     padding: 0 20px;
 }
