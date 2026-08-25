@@ -1,6 +1,8 @@
 # Source assets used to generate site content (e.g. images/gallery/ + data/gallery.json
-# via scripts/extract_pptx_photos.py) - too large to commit, kept locally only.
+# via scripts/extract_pptx_photos.py, or team-*.html project summaries) - too large /
+# not meant for publication as-is, kept locally only.
 *.pptx
+/AISLS LAB WEbsite/
 
 # Python bytecode cache from running the scripts/ helpers
 __pycache__/
