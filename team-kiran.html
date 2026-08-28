@@ -55,14 +55,31 @@
         <section class="hero">
             <div class="hero-content">
                 <h1>Kiran Babu Athina</h1>
-                <p class="hero-subtitle">Program Aide &mdash; Data Management &amp; LLM Development, NRI Project</p>
+                <p class="hero-subtitle">Research Technician &mdash; Data Management &amp; LLM Development, NRI Project</p>
             </div>
         </section>
 
         <!-- Back to Team -->
         <section style="padding-top: 2rem;">
             <div class="container">
-                <p><a href="team.html">&larr; Back to Team</a></p>
+                <p><a href="team.html" onclick="if (document.referrer.indexOf(&quot;team.html&quot;) !== -1) { history.back(); return false; }">&larr; Back to Team</a></p>
+            </div>
+        </section>
+
+        <!-- Profile Section -->
+        <section class="bio-section">
+            <div class="container">
+                <div class="bio-content">
+                    <div class="bio-photo">
+                        <img src="images/Kiran_formal image.jpg" alt="Kiran Babu Athina" class="bio-image">
+                    </div>
+                    <div class="bio-text">
+                        <h3>Kiran Babu Athina</h3>
+                        <p class="role">Research Technician &ndash; Data Management &amp; LLM Development, NRI Project</p>
+                        <p>Kiran is a Research Technician in the Department of Animal Science, developing data management strategies and large language model tools for the NRI project, and contributing programming support to digital twin initiatives across the lab.</p>
+                        <p>He also builds and maintains this lab website, including the automated Google Scholar publications sync and photo gallery.</p>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -72,6 +89,9 @@
                 <h2>Projects</h2>
                 <div class="research-grid">
                     <div class="research-item">
+                        <div class="research-image">
+                            <img src="images/Megha_INRMP_RAG_Chatbot.png" alt="Intelligent RAG Chatbot for INRMP Standardization" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                        </div>
                         <div class="research-content">
                             <h3>Agentic RAG Chatbot for Digitized INRMPs</h3>
                             <p>Develops a retrieval-augmented generation chatbot enabling semantic querying across digitized Integrated Natural Resources Management Plans (INRMPs) for the NRI project, grounding every response in cited sources to accelerate standardization and retrofitting workflows.</p>
@@ -79,20 +99,15 @@
                     </div>
 
                     <div class="research-item">
-                        <div class="research-content">
-                            <h3>Computer Vision for Hybrid Intelligent Modeling of BRD (CVDS)</h3>
-                            <p>Contributes programming support to the lab's computer vision decision-support pipeline for early BRD detection &mdash; detecting, segmenting, and tracking individual cattle to flag early behavioral signs of illness.</p>
+                        <div class="research-image">
+                            <img src="images/Vishnudas_Digital_Twin_Blueprint.jpg" alt="Digital twin framework blueprints for beef cattle and feedlot pen infrastructure" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
                         </div>
-                    </div>
-
-                    <div class="research-item">
                         <div class="research-content">
-                            <h3>Digital Twin for Methane Emissions Monitoring</h3>
-                            <p>Contributes to a real-time digital twin integrating sensor data and agent-based modeling for predicting methane emissions.</p>
+                            <h3>Digital Twin Framework for Energy Partitioning and Growth Optimization in Beef Cattle</h3>
+                            <p>Contributes to a 3D digital twin of feedlot cattle and pen infrastructure, simulating energy partitioning and growth optimization for beef cattle systems.</p>
                         </div>
                     </div>
                 </div>
-                <p style="margin-top: 2rem; color: var(--text-light);">Kiran also builds and maintains this lab website, including the automated Google Scholar publications sync and photo gallery.</p>
 
             </div>
         </section>

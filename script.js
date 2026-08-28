@@ -89,11 +89,16 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(el);
     });
 
-    // Add loading animation
-    window.addEventListener('load', function() {
-        document.body.classList.add('loaded');
-    });
+    // Reveal the page once the HTML/CSS is ready - don't wait on every image
+    // to finish downloading (window 'load' can lag badly on image-heavy pages).
+    document.body.classList.add('loaded');
 });
+
+// Safety net: if something above ever prevents that from running (e.g. a
+// script error before this point), never leave the page permanently blank.
+setTimeout(function() {
+    document.body.classList.add('loaded');
+}, 1500);
 
 // Add CSS for hamburger animation
 const style = document.createElement('style');

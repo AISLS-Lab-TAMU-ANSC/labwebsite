@@ -25,7 +25,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -133,7 +133,7 @@ body {
 .hero {
     background: linear-gradient(135deg, var(--aggie-maroon) 0%, #6d1a1a 100%);
     color: var(--aggie-white);
-    padding: 140px 0 80px; /* extra top padding to fully clear fixed navbar */
+    padding: 100px 0 40px; /* extra top padding to fully clear fixed navbar */
     text-align: center;
     margin-top: 0; /* remove margin that caused white gap */
 }
@@ -142,6 +142,32 @@ body {
     max-width: 1050px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+/* Homepage hero: just the banner image, full-bleed, no text or buttons
+   overlaid - the image carries the title itself. Pushed down by the fixed
+   navbar's height (72px) so its top edge isn't hidden underneath it. */
+.hero-with-image {
+    padding: 0;
+    margin-top: 72px;
+}
+
+.hero-banner-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
 
 .hero h1 {
@@ -271,6 +297,66 @@ h2 {
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
     text-align: left;
+}
+
+/* Photo Showcase Sections (image + text, alternating) */
+.showcase-section {
+    background: var(--aggie-white);
+    padding: 4rem 0;
+}
+
+.showcase-grid {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.showcase-reverse .showcase-media {
+    order: 2;
+}
+
+.showcase-media {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--shadow-hover);
+    line-height: 0;
+}
+
+.showcase-image {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.showcase-kicker {
+    display: inline-block;
+    color: var(--aggie-maroon);
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    margin-bottom: 0.75rem;
+    border-bottom: 3px solid var(--aggie-maroon);
+    padding-bottom: 0.25rem;
+}
+
+.showcase-text h2 {
+    text-align: left;
+    margin-bottom: 1.25rem;
+}
+
+.showcase-text p {
+    color: var(--text-dark);
+    line-height: 1.8;
+    font-size: 1.05rem;
+    margin-bottom: 1.25rem;
+}
+
+.showcase-text p:last-child {
+    margin-bottom: 0;
 }
 
 .vision-mission-card p {
@@ -678,6 +764,115 @@ footer {
     color: var(--text-light);
     font-weight: 600;
     margin-bottom: 1rem;
+}
+
+/* Lab Mentor spotlight (Team page): large boxed photo + social icons on the
+   left, name/bio/Google Scholar link on the right. */
+.mentor-spotlight {
+    display: grid;
+    grid-template-columns: 420px 1fr;
+    gap: 4rem;
+    align-items: start;
+    width: 100%;
+}
+
+.mentor-photo-wrap {
+    text-align: center;
+}
+
+.mentor-photo {
+    width: 100%;
+    height: 420px;
+    border-radius: 0;
+    overflow: hidden;
+    border: 4px solid var(--aggie-maroon);
+    box-shadow: var(--shadow-hover);
+}
+
+.mentor-photo .bio-image {
+    border-radius: 0;
+}
+
+.mentor-social {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+}
+
+.mentor-social-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 2px solid var(--aggie-maroon);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    color: var(--aggie-maroon);
+}
+
+.mentor-social-icon:hover {
+    background-color: var(--aggie-maroon);
+    color: var(--aggie-white);
+}
+
+.mentor-social-icon svg {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+}
+
+.mentor-text {
+    text-align: left;
+}
+
+.mentor-kicker {
+    display: inline-block;
+    color: var(--aggie-maroon);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.85rem;
+    margin-bottom: 0.75rem;
+}
+
+.mentor-text h3 {
+    text-align: left;
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.mentor-text .role {
+    text-align: left;
+    color: var(--text-light);
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+}
+
+.mentor-text p {
+    text-align: left;
+    color: var(--text-dark);
+    line-height: 1.8;
+    margin-bottom: 1.25rem;
+}
+
+.mentor-text p a {
+    color: var(--aggie-maroon);
+    font-weight: 600;
+}
+
+.mentor-scholar-btn {
+    display: inline-block;
+    margin-top: 0.5rem;
+    background-color: transparent;
+    color: var(--aggie-maroon);
+    border: 2px solid var(--aggie-maroon);
+}
+
+.mentor-scholar-btn:hover {
+    background-color: var(--aggie-maroon);
+    color: var(--aggie-white);
 }
 
 .education-section {
@@ -1150,6 +1345,24 @@ footer {
         text-align: center;
     }
 
+    .mentor-spotlight {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .mentor-photo {
+        max-width: 300px;
+        height: 300px;
+        margin: 0 auto;
+    }
+
+    .mentor-text,
+    .mentor-text h3,
+    .mentor-text .role,
+    .mentor-text p {
+        text-align: center;
+    }
+
     .specializations-grid,
     .product-cards,
     .decisions-grid,
@@ -1157,6 +1370,19 @@ footer {
     .news-grid,
     .publications-list {
         grid-template-columns: 1fr;
+    }
+
+    .showcase-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .showcase-reverse .showcase-media {
+        order: 0;
+    }
+
+    .showcase-text h2 {
+        text-align: center;
     }
 
     .team-grid,
@@ -1202,6 +1428,11 @@ footer {
 
     .hero {
         padding: 100px 0 60px;
+    }
+
+    .hero-with-image {
+        padding: 0;
+        margin-top: 62px;
     }
 
     .hero h1 {

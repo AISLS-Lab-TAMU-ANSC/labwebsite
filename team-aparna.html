@@ -62,7 +62,24 @@
         <!-- Back to Team -->
         <section style="padding-top: 2rem;">
             <div class="container">
-                <p><a href="team.html">&larr; Back to Team</a></p>
+                <p><a href="team.html" onclick="if (document.referrer.indexOf(&quot;team.html&quot;) !== -1) { history.back(); return false; }">&larr; Back to Team</a></p>
+            </div>
+        </section>
+
+        <!-- Profile Section -->
+        <section class="bio-section">
+            <div class="container">
+                <div class="bio-content">
+                    <div class="bio-photo">
+                        <img src="images/aparna.jpeg" alt="Aparna Pushkaran Ajitha" class="bio-image">
+                    </div>
+                    <div class="bio-text">
+                        <h3>Aparna Pushkaran Ajitha</h3>
+                        <p class="role">Doctoral Researcher &ndash; Epidemiological Modeling, Animal Science</p>
+                        <p>Aparna is a doctoral researcher in the Department of Animal Science at Texas A&amp;M University, working under the guidance of Dr. Karun Kaniyamattam. Her research focuses on resource efficiency in dairy production systems, with a particular emphasis on analyzing the interlinked use of water, energy, and feed in modern dairy farms. By applying systems modeling and decision science approaches, her work aims to improve the sustainability, resilience, and productivity of livestock systems.</p>
+                        <p>Prior to starting her Ph.D., she worked on the development of a system dynamics model for Foot-and-Mouth Disease (FMD), combining epidemiological modeling and simulation to understand disease transmission pathways and evaluate intervention strategies at the herd and population levels &mdash; an experience that fostered her interest in integrating animal health, systems modeling, and sustainability into livestock research.</p>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -72,6 +89,9 @@
                 <h2>Projects</h2>
                 <div class="research-grid">
                     <div class="research-item">
+                        <div class="research-image">
+                            <img src="images/Aparna_SD_WEF_Nexus.jpg" alt="Water-Energy-Food nexus for sustainable dairy sector integrated resource management" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                        </div>
                         <div class="research-content">
                             <h3>System Dynamics Model for the Water-Energy-Food Nexus in Dairy Farms</h3>
                             <p>A whole-herd system dynamics model integrating water and energy modules with an existing dairy herd lifecycle model, enabling stakeholders to optimize water use, energy use, and milk production together.</p>
@@ -79,6 +99,9 @@
                     </div>
 
                     <div class="research-item">
+                        <div class="research-image">
+                            <img src="images/Aparna_ABM_WEF_Nexus.png" alt="Agent-based modeling concept: individual agents, simple local rules, emergent farm pattern" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                        </div>
                         <div class="research-content">
                             <h3>Agent-Based Model of the Water-Energy-Food Nexus</h3>
                             <p>Represents each cow as an autonomous decision-making agent with individual water, feed, and energy needs, so farm-level resource use emerges bottom-up from thousands of agent interactions &mdash; complementing the top-down system dynamics model.</p>
@@ -86,6 +109,9 @@
                     </div>
 
                     <div class="research-item">
+                        <div class="research-image">
+                            <img src="images/Aparna_CostBenefit_Economics.png" alt="TAMU Smart Advisor dashboard for cost-benefit economics of resource use optimization in Texas dairy farms" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                        </div>
                         <div class="research-content">
                             <h3>Cost-Benefit Economics of Resource Use Optimization</h3>
                             <p>A web-based decision tool quantifying the return on investment and payback period of water/energy-efficiency technologies (e.g. robotic milking systems) for Texas dairy farms.</p>
@@ -93,6 +119,9 @@
                     </div>
 
                     <div class="research-item">
+                        <div class="research-image">
+                            <img src="images/Aparna_LCA_Dairy_Footprint.png" alt="Dairy Water-Energy-Food Nexus footprint scorecard showing carbon, energy, and water metrics" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                        </div>
                         <div class="research-content">
                             <h3>Life Cycle Assessment of Texan Dairy Resource Flows</h3>
                             <p>A cradle-to-farm-gate LCA quantifying total water and energy flows &mdash; including dry cows, calves, and pasture &mdash; to support Dairy Net Zero roadmap reporting and carbon/water footprint credentialing.</p>
@@ -100,6 +129,9 @@
                     </div>
 
                     <div class="research-item">
+                        <div class="research-image">
+                            <img src="images/Aparna_SD_FMD_Model.png" alt="System dynamics SEIRC model structure for Foot-and-Mouth Disease spread and control" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                        </div>
                         <div class="research-content">
                             <h3>System Dynamics Model for Foot-and-Mouth Disease</h3>
                             <p>A system dynamics SEIRC framework simulating Foot-and-Mouth Disease spread and control, linking epidemiological dynamics to on-farm production and resource-use decisions.</p>

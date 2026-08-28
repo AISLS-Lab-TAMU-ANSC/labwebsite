@@ -62,7 +62,24 @@
         <!-- Back to Team -->
         <section style="padding-top: 2rem;">
             <div class="container">
-                <p><a href="team.html">&larr; Back to Team</a></p>
+                <p><a href="team.html" onclick="if (document.referrer.indexOf(&quot;team.html&quot;) !== -1) { history.back(); return false; }">&larr; Back to Team</a></p>
+            </div>
+        </section>
+
+        <!-- Profile Section -->
+        <section class="bio-section">
+            <div class="container">
+                <div class="bio-content">
+                    <div class="bio-photo">
+                        <img src="images/Megha.png" alt="Dr. Megha Poyyara Saiju" class="bio-image">
+                    </div>
+                    <div class="bio-text">
+                        <h3>Dr. Megha Poyyara Saiju</h3>
+                        <p class="role">Post Doctoral Research Associate</p>
+                        <p>Dr. Megha Poyyara Saiju (DVM, MVSc, PhD, PGTMD) is a veterinary science researcher specialised in nutritional physiology and functional food production. Her doctoral work explored the estrogenic impact of soybean isoflavones on ovarian receptor dynamics in layer chickens, and she pioneered a safe and effective method to produce vitamin D3- and zinc-enriched designer eggs.</p>
+                        <p>She brings over five years of experience in analytical and molecular techniques from a NABL-accredited Central Instruments Laboratory, and now contributes to multidisciplinary AI and decision-modeling initiatives at the AISLS Lab, spanning circular dairy bioeconomy modeling, natural resources plan standardization, genomic selection strategy, and scientific authorship.</p>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -71,28 +88,63 @@
             <div class="container">
                 <h2>Projects</h2>
                 <div class="research-grid">
+                    <!-- Project 1 -->
                     <div class="research-item">
+                        <div class="research-image">
+                            <img src="images/Megha_ViCBio_DM.png" alt="ViCBio DM - Virtual Circular Bioeconomy Dairy Farm Model" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                        </div>
                         <div class="research-content">
-                            <h3>ViCBio DM: Agent-Based Model for Circular Dairy Bioeconomy</h3>
-                            <p>An agent-based virtual farm modeling nutrient, water, energy, and by-product loops together &mdash; representing $4.94M in capital investment for a 2,000-cow operation, generating $3.67M in annual net benefit with a 1.3-year payback.</p>
+                            <h3>ViCBio DM: An Agent-Based Model for Circular Dairy Bioeconomy</h3>
+                            <p>An agent-based virtual dairy farm linking nutrient management, water recycling, biogas energy, and dairy by-product loops through an AI-enabled decision support system. Together these loops represent $4.94M in capital investment for a 2,000-cow operation, generating $3.67M in annual net benefit and a portfolio payback of 1.3 years. Funded by USDA and dairy processors for producers and cooperatives.</p>
                         </div>
                     </div>
 
+                    <!-- Project 2 -->
                     <div class="research-item">
+                        <div class="research-image">
+                            <img src="images/Megha_INRMP_Standardization.png" alt="INRMP Standardisation and Retro-fitting" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                        </div>
                         <div class="research-content">
-                            <h3>Agentic RAG Chatbot for Digitized INRMPs</h3>
-                            <p>A retrieval-augmented generation chatbot enabling semantic querying across digitized Integrated Natural Resources Management Plans (INRMPs), grounding every response in cited sources to accelerate standardization and retrofitting workflows.</p>
+                            <h3>INRMP Standardisation &amp; Retro-fitting</h3>
+                            <p>A repeatable AI-assisted methodology for converting existing Integrated Natural Resources Management Plans into a standardised eight-chapter template. The workflow aligns existing plan content with required template expectations, identifies missing or misplaced sections, and supports quality review across sample installations from the Navy, Marine Corps, Army, and Air Force.</p>
                         </div>
                     </div>
 
+                    <!-- Project 3 -->
                     <div class="research-item">
+                        <div class="research-image">
+                            <img src="images/Megha_INRMP_RAG_Chatbot.png" alt="Intelligent RAG Chatbot for INRMP Standardization" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                        </div>
                         <div class="research-content">
-                            <h3>Genomic Selection, Simulation Modeling &amp; Decision-Support Strategy</h3>
-                            <p>An economic simulation model of genomic selection strategy, modeling each animal individually and simulating genetic progress, feeding into a web-based decision tool for producers and breeding consultants.</p>
+                            <h3>An Intelligent RAG Chatbot for INRMP Standardization</h3>
+                            <p>An agentic retrieval-augmented generation chatbot enabling semantic querying across digitized INRMPs, grounding every response in cited sources. It combines multi-mode query routing, hybrid retrieval, cross-encoder reranking, conversation persistence, knowledge graph expansion, and cloud-native storage to accelerate information discovery and cross-reference validation.</p>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="research-item">
+                        <div class="research-image">
+                            <img src="images/Megha_EcoS_Index_Dairy_Adviser.png" alt="EcoS Index simulation model - genomic selection and culling decision loops" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                        </div>
+                        <div class="research-content">
+                            <h3>Optimizing Dairy Cattle Sustainability and Profitability Through the EcoS Index</h3>
+                            <p>An economic investigation into genomic selection strategy, built as a simulation model in which each animal is modeled individually and genetic progress is simulated from genomic selection data. Outputs feed a web-based decision tool that lets producers, STgenetics consultants, and policymakers analyze beef, conventional, and sexed semen breeding strategies in real time.</p>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="research-item">
+                        <div class="research-image">
+                            <img src="images/Megha_AI_Vet_Animal_Science_Book.png" alt="AI in Veterinary and Animal Science book project" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                        </div>
+                        <div class="research-content">
+                            <h3>AI in Veterinary and Animal Science: A Book Project</h3>
+                            <p>A 15-chapter book &mdash; <em>Principles, Applications, and Future Directions</em> &mdash; authored by eight contributors from the AISLS Lab for Elsevier's ELSA platform, targeted for completion in December 2026. Chapters span foundations and data, diagnostics and imaging, precision livestock and welfare, nutrition and genetics, economics and supply chain, and ethics, education, and future techniques.</p>
                         </div>
                     </div>
                 </div>
 
+                <p style="margin-top: 2rem; color: var(--text-light);">Alongside these projects, Dr. Megha supports the Artificial Intelligence for Sustainable Food Systems (AISFS) Club, the lab's student outreach initiative for applied research projects, hands-on workshops, research symposia, hackathons, and industry engagement. <a href="aisfs.html">Learn more about the AISFS Club &rarr;</a></p>
             </div>
         </section>
     </main>
