@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AISFS Club | AI Laboratory for Sustainable Livestock Systems</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .club-hero {
+            background: linear-gradient(135deg, #500000 0%, #7a1212 55%, #9b1c1c 100%);
+            color: #ffffff;
+            padding: 150px 20px 90px;
+            text-align: center;
+        }
+
+        .club-hero h1 {
+            font-size: 3rem;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+
+        .club-hero p {
+            max-width: 900px;
+            margin: 0 auto 2rem;
+            font-size: 1.2rem;
+            line-height: 1.7;
+            opacity: 0.95;
+        }
+
+        .club-badge {
+            display: inline-block;
+            background: #ffd700;
+            color: #500000;
+            font-weight: 700;
+            padding: 0.6rem 1rem;
+            border-radius: 999px;
+            margin-bottom: 1.5rem;
+        }
+
+        .club-section {
+            padding: 80px 0;
+        }
+
+        .club-section:nth-of-type(even) {
+            background: #f8f9fa;
+        }
+
+        .club-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 2rem;
+            margin-top: 2.5rem;
+        }
+
+        .club-card {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-top: 5px solid #500000;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .club-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        }
+
+        .club-card h3 {
+            color: #500000;
+            font-size: 1.35rem;
+            margin-bottom: 1rem;
+        }
+
+        .club-card p,
+        .club-card li {
+            color: #2c3e50;
+            line-height: 1.7;
+        }
+
+        .club-card ul {
+            padding-left: 1.2rem;
+        }
+
+        .split-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            align-items: stretch;
+        }
+
+        .highlight-panel {
+            background: #500000;
+            color: #ffffff;
+            border-radius: 12px;
+            padding: 2.5rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .highlight-panel h2 {
+            color: #ffffff;
+            text-align: left;
+            margin-bottom: 1.5rem;
+        }
+
+        .highlight-panel p,
+        .highlight-panel li {
+            color: #ffffff;
+            line-height: 1.8;
+        }
+
+        .highlight-panel ul {
+            padding-left: 1.2rem;
+        }
+
+        .registration-box {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 2.5rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border: 2px solid #500000;
+            text-align: center;
+        }
+
+        .registration-box h2 {
+            margin-bottom: 1rem;
+        }
+
+        .registration-box p {
+            max-width: 760px;
+            margin: 0 auto 1.5rem;
+            color: #2c3e50;
+            line-height: 1.7;
+        }
+
+        .register-button {
+            display: inline-block;
+            background: #500000;
+            color: #ffffff;
+            padding: 14px 30px;
+            border-radius: 6px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .register-button:hover {
+            background: #7a1212;
+            transform: translateY(-2px);
+        }
+
+        .pill-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+
+        .pill {
+            background: #500000;
+            color: #ffffff;
+            padding: 0.55rem 1rem;
+            border-radius: 999px;
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
+        @media screen and (max-width: 768px) {
+            .club-hero h1 {
+                font-size: 2rem;
+            }
+
+            .club-hero {
+                padding-top: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/tamu-logo.png" alt="Texas A&M University Logo" class="tamu-logo">
+                <h2>AISLS Lab</h2>
+            </div>
+
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="biography.html" class="nav-link">Faculty Advisor</a></li>
+                <li class="nav-item"><a href="team.html" class="nav-link">Team</a></li>
+                <li class="nav-item"><a href="research.html" class="nav-link">Research</a></li>
+                <li class="nav-item"><a href="aisfs-club.html" class="nav-link active">AISFS Club</a></li>
+                <li class="nav-item"><a href="publications.html" class="nav-link">Publications & Awards</a></li>
+                <li class="nav-item"><a href="videos.html" class="nav-link">Videos & Podcasts</a></li>
+                <li class="nav-item"><a href="news.html" class="nav-link">News</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="club-hero">
+        <span class="club-badge">Student Club of AISLS Lab</span>
+        <h1>Artificial Intelligence for Sustainable Food Systems Club</h1>
+        <p>
+            Join us in harnessing the power of artificial intelligence to revolutionize
+            livestock systems through interdisciplinary collaboration, practical learning,
+            research, and community engagement.
+        </p>
+        <a href="#register" class="btn btn-primary">Register to Join</a>
+    </header>
+
+    <section class="club-section">
+        <div class="container">
+            <h2>About AISFS Club</h2>
+            <p class="section-intro">
+                The AISFS Club brings together forward-thinking students from diverse academic
+                backgrounds who share a passion for sustainable agriculture, artificial intelligence,
+                and livestock systems innovation.
+            </p>
+
+            <div class="club-grid">
+                <div class="club-card">
+                    <h3>Agriculture & Life Sciences</h3>
+                    <p>
+                        Students interested in animal husbandry, nutrition, agricultural systems,
+                        livestock management, and sustainable production.
+                    </p>
+                </div>
+
+                <div class="club-card">
+                    <h3>Data Science & Engineering</h3>
+                    <p>
+                        Students interested in artificial intelligence, machine learning, robotics,
+                        automation, sensors, data analytics, and decision-support systems.
+                    </p>
+                </div>
+
+                <div class="club-card">
+                    <h3>Business & Social Sciences</h3>
+                    <p>
+                        Students interested in sustainable business models, economic analysis,
+                        social impact, technology adoption, and community engagement.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="club-section">
+        <div class="container split-section">
+            <div class="highlight-panel">
+                <h2>Mission</h2>
+                <p>
+                    To be a premier learning hub of innovation and excellence where interdisciplinary
+                    collaboration between artificial intelligence and animal science shapes the future
+                    of sustainable food systems.
+                </p>
+            </div>
+
+            <div class="highlight-panel">
+                <h2>Vision</h2>
+                <p>
+                    To empower students with cutting-edge knowledge and practical skills at the
+                    intersection of artificial intelligence and livestock management through research,
+                    education, and community engagement.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="club-section">
+        <div class="container">
+            <h2>Core Values</h2>
+            <div class="club-grid">
+                <div class="club-card">
+                    <h3>Innovation</h3>
+                    <p>
+                        We encourage creative thinking and the development of AI-driven solutions
+                        that advance animal science and sustainable agriculture.
+                    </p>
+                </div>
+
+                <div class="club-card">
+                    <h3>Collaboration</h3>
+                    <p>
+                        We foster partnerships among students, faculty, industry professionals,
+                        producers, and communities.
+                    </p>
+                </div>
+
+                <div class="club-card">
+                    <h3>Excellence</h3>
+                    <p>
+                        We aim for high-quality research, education, outreach, and real-world impact
+                        in livestock and food systems.
+                    </p>
+                </div>
+
+                <div class="club-card">
+                    <h3>Empowerment</h3>
+                    <p>
+                        We support members through mentorship, skill development, practical experience,
+                        and confidence-building opportunities.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="club-section">
+        <div class="container">
+            <h2>What We Do</h2>
+            <p class="section-intro">
+                AISFS Club creates a vibrant ecosystem for learning, innovation, and real-world impact.
+            </p>
+
+            <div class="club-grid">
+                <div class="club-card">
+                    <h3>Hands-on Workshops</h3>
+                    <p>
+                        Technical training on AI tools, sensors, data collection, machine learning,
+                        data analysis, and automation.
+                    </p>
+                </div>
+
+                <div class="club-card">
+                    <h3>Applied Research Projects</h3>
+                    <p>
+                        Interdisciplinary projects exploring AI-based solutions for animal health,
+                        productivity, sustainability, and decision-making.
+                    </p>
+                </div>
+
+                <div class="club-card">
+                    <h3>Field Visits</h3>
+                    <p>
+                        Opportunities to observe AI and precision livestock technologies at progressive
+                        farms, laboratories, and research facilities.
+                    </p>
+                </div>
+
+                <div class="club-card">
+                    <h3>Hackathons & Competitions</h3>
+                    <p>
+                        Collaborative problem-solving events focused on real challenges in food systems,
+                        livestock production, and sustainability.
+                    </p>
+                </div>
+
+                <div class="club-card">
+                    <h3>Research Symposia</h3>
+                    <p>
+                        Student-led presentations, project showcases, feedback sessions, and networking
+                        opportunities.
+                    </p>
+                </div>
+
+                <div class="club-card">
+                    <h3>Community Outreach</h3>
+                    <p>
+                        Engagement with agricultural communities to share accessible AI-driven practices
+                        for livestock farming.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="club-section">
+        <div class="container">
+            <h2>Benefits of Joining</h2>
+
+            <div class="club-grid">
+                <div class="club-card">
+                    <h3>Technical Expertise</h3>
+                    <p>
+                        Build practical skills in AI programming, machine learning, data analysis,
+                        IoT systems, and livestock-focused technology.
+                    </p>
+                </div>
+
+                <div class="club-card">
+                    <h3>Professional Network</h3>
+                    <p>
+                        Connect with researchers, industry innovators, faculty mentors, and other
+                        students interested in AgTech.
+                    </p>
+                </div>
+
+                <div class="club-card">
+                    <h3>Career Advancement</h3>
+                    <p>
+                        Gain hands-on experience with emerging technologies, research projects,
+                        presentations, and industry partnerships.
+                    </p>
+                </div>
+
+                <div class="club-card">
+                    <h3>Global Impact</h3>
+                    <p>
+                        Contribute to solutions for food security, environmental sustainability,
+                        animal welfare, and farmer livelihoods.
+                    </p>
+                </div>
+            </div>
+
+            <div class="pill-list">
+                <span class="pill">Learn AI Skills</span>
+                <span class="pill">Build Networks</span>
+                <span class="pill">Develop Solutions</span>
+                <span class="pill">Drive Sustainability</span>
+                <span class="pill">Advance Careers</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="club-section" id="register">
+        <div class="container">
+            <div class="registration-box">
+                <h2>Register to Join AISFS Club</h2>
+                <p>
+                    New students are welcome to join the Artificial Intelligence for Sustainable Food
+                    Systems Club. Complete the registration form to become part of the AISFS community
+                    and receive future updates about meetings, workshops, projects, and events.
+                </p>
+
+                <a
+                    class="register-button"
+                    href="https://forms.gle/hA3G8XeXqLVuZ3Gq5"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Open Student Registration Form
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="club-section">
+        <div class="container">
+            <h2>Join Us in Shaping the Future of Food Systems</h2>
+            <p class="section-intro">
+                Together, we can create a more sustainable future for livestock systems while addressing
+                critical challenges in global food security, environmental conservation, animal welfare,
+                and farmer livelihoods.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Information</h3>
+                    <p>Texas A&M University<br>
+                    Department of Animal Science<br>
+                    AgriLife Research</p>
+                    <p>Dr. Karun Kaniyamattam<br>
+                    karun.kaniyamattam@ag.tamu.edu<br>
+                    979-314-7785</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Location</h3>
+                    <p>Kleberg 432E<br>
+                    Texas A&M University<br>
+                    College Station, TX</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 AI Laboratory for Sustainable Livestock Systems. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
