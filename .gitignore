@@ -1,0 +1,24 @@
+# Source assets used to generate site content (e.g. images/gallery/ + data/gallery.json
+# via scripts/extract_pptx_photos.py, or team-*.html project summaries) - too large /
+# not meant for publication as-is, kept locally only.
+*.pptx
+/AISLS LAB WEbsite/
+
+# Python bytecode cache from running the scripts/ helpers
+__pycache__/
+*.pyc
+
+# Local-only Claude Code settings (machine-specific, not shared config)
+.claude/settings.local.json
+
+# Node dependencies - reinstall with `npm install` (package.json/
+# package-lock.json are tracked); never commit the installed packages.
+node_modules/
+
+# Visual Studio IDE workspace/solution state (machine-specific, can embed
+# local absolute paths; not shared project configuration).
+.vs/
+
+# OS junk
+.DS_Store
+Thumbs.db

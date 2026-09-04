@@ -1,0 +1,806 @@
+{
+  "generatedAt": "2026-07-22T00:01:36.308111+00:00",
+  "sourceProfile": "https://scholar.google.com/citations?user=nJoDXMMAAAAJ&hl=en",
+  "userId": "nJoDXMMAAAAJ",
+  "count": 59,
+  "publications": [
+    {
+      "title": "ASAS-NANP symposium: mathematical modeling in animal nutrition: agent‑based modeling of nutrient requirements and growth performance in growing–finishing pigs for sustainable …",
+      "authors": [
+        "A Rahimifar",
+        "K Kaniyamattam",
+        "JG Wiegert",
+        "LO Tedeschi"
+      ],
+      "venue": "Journal of Animal Science 104, skaf443",
+      "year": 2026,
+      "citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:bEWYMUwI8FkC"
+    },
+    {
+      "title": "Bovine Respiratory Disease: Epidemiological Drivers, Transmission Dynamics, and Economic Implications in Beef Production Systems",
+      "authors": [
+        "A Adekunle",
+        "K Kaniyamattam"
+      ],
+      "venue": "Agriculture 16 (3), 311",
+      "year": 2026,
+      "citations": 2,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:r0BpntZqJG4C"
+    },
+    {
+      "title": "Data-driven strategic sustainability initiatives of beef and dairy genetics consortiums: A comprehensive landscape analysis for USA, Brazil, and Europe",
+      "authors": [
+        "K Kaniyamattam",
+        "MP Saiju",
+        "M Gonzalez"
+      ],
+      "venue": "Journal of Animal Science 102 (Supplement_3), 321-322",
+      "year": 2026,
+      "citations": 4,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:4TOpqqG69KYC"
+    },
+    {
+      "title": "Machine learning-based prediction of subclinical mastitis in large-scale dairy herds using a locally established somatic cell count threshold",
+      "authors": [
+        "R Rathnayaka",
+        "KM Devindi",
+        "MP Saiju",
+        "AP Ajitha",
+        "K Kaniyamattam",
+        "..."
+      ],
+      "venue": "Scientific Reports",
+      "year": 2026,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:IWHjjKOFINEC"
+    },
+    {
+      "title": "Mapping Variability in Bovine Respiratory Disease Risk Factors in Beef Production Systems: A Scoping Review",
+      "authors": [
+        "A Adekunle",
+        "A Gaines",
+        "N Estefano",
+        "D Lenin",
+        "P Hole",
+        "R Khandelwal",
+        "..."
+      ],
+      "venue": "Animals 16 (11), 1726",
+      "year": 2026,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:YFjsv_pBGBYC"
+    },
+    {
+      "title": "System Dynamics Modeling of Foot-and-Mouth Disease in Indian Cattle: Epidemiological Insights for Effective Prevention Strategies",
+      "authors": [
+        "A Pushkaran-Ajitha",
+        "SC Sebastian",
+        "JD Kollannur",
+        "K Kaniyamattam"
+      ],
+      "venue": "Preprints",
+      "year": 2026,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:maZDTaKrznsC"
+    },
+    {
+      "title": "30. An agent-based framework of cattle value discovery system for precision nutrient requirements and utilization prediction of beef cattle.",
+      "authors": [
+        "K Kaniyamattam",
+        "V Kulangara-Veettil",
+        "P Kundu",
+        "KB Athina",
+        "LO Tedeschi"
+      ],
+      "venue": "",
+      "year": 2025,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:L8Ckcad2t8MC"
+    },
+    {
+      "title": "47. Activity recognition in beef cattle Calan gate using CLIP and YOLO v11",
+      "authors": [
+        "USR Vysyaraju",
+        "S Moon",
+        "EDM Mendes",
+        "AJ Adekunle",
+        "K Kaniyamattam",
+        "..."
+      ],
+      "venue": "Animal-Science proceedings 16 (4), 578-579",
+      "year": 2025,
+      "citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:R3hNpaxXUhUC"
+    },
+    {
+      "title": "48. An agent-based modeling framework for bovine respiratory disease management in integrated beef supply chains",
+      "authors": [
+        "AJ Adekunle",
+        "A Rahimifar",
+        "K Kaniyamattam"
+      ],
+      "venue": "Animal-Science proceedings 16 (4), 579-581",
+      "year": 2025,
+      "citations": 2,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:e5wmG9Sq2KIC"
+    },
+    {
+      "title": "A machine learning approach for price prediction and decision support in United States (US) cow-calf operations.",
+      "authors": [
+        "VK Veettil",
+        "MZ Tariq",
+        "K Kaniyamattam"
+      ],
+      "venue": "Journal of Animal Science 103 (Supplement_3), 256-257",
+      "year": 2025,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:mB3voiENLucC"
+    },
+    {
+      "title": "A real-time data integration and visualization framework for monitoring beef cattle performance and emissions data from precision livestock technologies.",
+      "authors": [
+        "K Kaniyamattam",
+        "A Adiga",
+        "E Cain",
+        "M Scaborough",
+        "C Ebeling",
+        "M Muntari",
+        "..."
+      ],
+      "venue": "",
+      "year": 2025,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:QIV2ME_5wuYC"
+    },
+    {
+      "title": "An agent-based modeling approach for balancing feed efficiency and environmental footprint of growing-finishing pig production systems.",
+      "authors": [
+        "A Rahimifar",
+        "J Wiegert",
+        "K Kaniyamattam",
+        "LO Tedeschi"
+      ],
+      "venue": "Journal of Animal Science 103 (Supplement_3), 65-66",
+      "year": 2025,
+      "citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:hC7cP41nSMkC"
+    },
+    {
+      "title": "Analysing the dynamics of foot-and-mouth disease transmission: a model-based approach.",
+      "authors": [
+        "PA Aparna",
+        "KJ Davis",
+        "K Karun",
+        "PV Tresamol",
+        "K Vinodkumar",
+        "D Jolly"
+      ],
+      "venue": "",
+      "year": 2025,
+      "citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:4JMBOYKVnBMC"
+    },
+    {
+      "title": "Comparing the utility of machine learning algorithms in methane predictions from a global beef cattle database.",
+      "authors": [
+        "SP Rejimon",
+        "J Yan",
+        "V Subramanyam",
+        "M Lee",
+        "K Kaniyamattam"
+      ],
+      "venue": "Journal of Animal Science 103 (Supplement_3), 238-239",
+      "year": 2025,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:HDshCWvjkbEC"
+    },
+    {
+      "title": "Comparison of Respiratory Capacities of Permeabilized Muscle Fibers and Isolated Mitochondria in Exercising Horses",
+      "authors": [
+        "B Williams",
+        "L Wesolowski",
+        "A Disilvestro",
+        "M Barshick",
+        "K Mogge",
+        "E Jolley",
+        "..."
+      ],
+      "venue": "Physiology 40 (S1), 2113",
+      "year": 2025,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:9ZlFYXVOiuMC"
+    },
+    {
+      "title": "Compartmental Modeling of FMD in India: Guiding Sustainable Livestock Health through SIR, SEIR, and SEIRC Models.",
+      "authors": [
+        "S C Sebastian",
+        "JD Kollannur",
+        "K Kaniyamattam",
+        "PV Tresamol"
+      ],
+      "venue": "Sebastian, Saby and Kollannur, Justin Davis and Kollannur, Justin Davis and …",
+      "year": 2025,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:j3f4tGmQtD8C"
+    },
+    {
+      "title": "Design and development of artificial intelligence driven decision support systems for sustainable livestock systems in United States.",
+      "authors": [
+        "K Kaniyamattam",
+        "A Adekule",
+        "VK Vettil",
+        "SP Rejimon",
+        "Y Pi",
+        "J Tao",
+        "..."
+      ],
+      "venue": "Journal of Animal Science 103 (Supplement_3), 109-110",
+      "year": 2025,
+      "citations": 2,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:TQgYirikUcIC"
+    },
+    {
+      "title": "Epidemiological risk factor dynamics of Bovine Respiratory Disease in US beef production systems.",
+      "authors": [
+        "AJ Adekunle",
+        "K Kaniyamattam",
+        "RF Cooke"
+      ],
+      "venue": "JOURNAL OF ANIMAL SCIENCE 103, 47-48",
+      "year": 2025,
+      "citations": 2,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:RHpTSmoSYBkC"
+    },
+    {
+      "title": "Evaluating climate-smart beef production practices through sustainability metrics.",
+      "authors": [
+        "SP Rejimon",
+        "V Subramanyam",
+        "A Singh",
+        "A Wang",
+        "K Kaniyamattam"
+      ],
+      "venue": "Journal of Animal Science 103 (Supplement_3), 235-236",
+      "year": 2025,
+      "citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:-f6ydRqryjwC"
+    },
+    {
+      "title": "Feedlot economic visualization decision support tool for sustainable beef production.",
+      "authors": [
+        "AJ Adekunle",
+        "K Kaniyamattam"
+      ],
+      "venue": "Journal of Animal Science 103 (Supplement_3), 246-247",
+      "year": 2025,
+      "citations": 2,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:hFOr9nPyWt4C"
+    },
+    {
+      "title": "Graduate Student Literature Review: Organic dairy cattle longevity and economic implications—Contemporary perspectives",
+      "authors": [
+        "B Shrestha",
+        "S Paudyal",
+        "K Kaniyamattam",
+        "YT Grohn"
+      ],
+      "venue": "Journal of Dairy Science 108 (4), 3734-3745",
+      "year": 2025,
+      "citations": 11,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:aqlVkmm33-oC"
+    },
+    {
+      "title": "Impacts of repeated fatiguing exercise on mitochondria in Thoroughbreds",
+      "authors": [
+        "BD Williams",
+        "LT Wesolowski",
+        "AN DiSilvestro",
+        "M Barshick",
+        "K Mogge",
+        "..."
+      ],
+      "venue": "Journal of Equine Veterinary Science 148, 105456",
+      "year": 2025,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:ZeXyd9-uunAC"
+    },
+    {
+      "title": "Predicting the risk of subacute and acute ruminal acidosis in ruminants using random forest models trained on synthetic datasets.",
+      "authors": [
+        "LO Tedeschi",
+        "K Kaniyamattam"
+      ],
+      "venue": "",
+      "year": 2025,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:dhFuZR0502QC"
+    },
+    {
+      "title": "Predictors of epistaxis incidence in Thoroughbred racehorses in the United States",
+      "authors": [
+        "AN Boone",
+        "SC Silverman",
+        "V Kulangara-Veettil",
+        "K Gebrekidan",
+        "..."
+      ],
+      "venue": "Journal of Equine Veterinary Science 148, 105455",
+      "year": 2025,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:7PzlFSSx8tAC"
+    },
+    {
+      "title": "PSIII-28 Veterinary Syndromic Surveillance in Africa: Challenges, opportunities, and strategies for sustainable implementation: A scoping review.",
+      "authors": [
+        "K Gebrekidan",
+        "R Elliot",
+        "K Mueller",
+        "K Chengavarayan",
+        "K De Cardenas",
+        "..."
+      ],
+      "venue": "Journal of Animal Science 103 (Supplement_3), 352-353",
+      "year": 2025,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:qUcmZB5y_30C"
+    },
+    {
+      "title": "Role of molecular chaperons governing heat stress response in goats",
+      "authors": [
+        "HA Samad",
+        "K Lata",
+        "S Lokesh",
+        "PM Suhana",
+        "E VineethKumar",
+        "F Zikra",
+        "..."
+      ],
+      "venue": "Sustainable Goat Production in the Changing Climate, 161-176",
+      "year": 2025,
+      "citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:Wp0gIr-vW9MC"
+    },
+    {
+      "title": "Sustainable livestock solutions: Addressing carbon footprint challenges from Indian and global perspectives",
+      "authors": [
+        "HA Samad",
+        "V Kumar Eshwaran",
+        "SP Muquit",
+        "L Sharma",
+        "H Arumugam",
+        "..."
+      ],
+      "venue": "Sustainability 17 (5), 2105",
+      "year": 2025,
+      "citations": 27,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:4DMP91E08xMC"
+    },
+    {
+      "title": "A stochastic, dynamic agent-based model of swine nutrient requirements for the growing finishing production phase",
+      "authors": [
+        "A Rahimifar",
+        "K Kaniyamattam",
+        "J Wiegert",
+        "LO Tedeschi"
+      ],
+      "venue": "Journal of Animal Science 102 (Supplement_3), 253-254",
+      "year": 2024,
+      "citations": 4,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:_kc_bZDykSQC"
+    },
+    {
+      "title": "Applying systems thinking to sustainable beef production management: modeling-based evidence for enhancing ecosystem services",
+      "authors": [
+        "LO Tedeschi",
+        "DC Johnson",
+        "AS Atzori",
+        "K Kaniyamattam",
+        "HM Menendez III"
+      ],
+      "venue": "Systems 12 (11), 446",
+      "year": 2024,
+      "citations": 15,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:qxL8FJ1GzNcC"
+    },
+    {
+      "title": "PSXII-15 Theory of planned behavior-based evaluation of technology adoption in dairy farms",
+      "authors": [
+        "S Paudyal",
+        "K Kaniyamattam"
+      ],
+      "venue": "Journal of Animal Science 102 (Supplement_3), 729-730",
+      "year": 2024,
+      "citations": 5,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:M3ejUd6NZC8C"
+    },
+    {
+      "title": "A System dynamics model of bovine respiratory disease epidemiology and prevention strategies in an integrated beef production system",
+      "authors": [
+        "L Kacheri-Moolan",
+        "K Kaniyamattam",
+        "LO Tedeschi"
+      ],
+      "venue": "Journal of Animal Science 101 (Supplement_3), 58-59",
+      "year": 2023,
+      "citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:kNdYIx-mwKoC"
+    },
+    {
+      "title": "ASAS-NANP symposium: mathematical modeling in animal nutrition: agent-based modeling for livestock systems: the mechanics of development and application",
+      "authors": [
+        "K Kaniyamattam",
+        "LO Tedeschi"
+      ],
+      "venue": "Journal of Animal Science 101, skad321",
+      "year": 2023,
+      "citations": 9,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:ULOm3_A8WrAC"
+    },
+    {
+      "title": "Design and Development Mechanics of a Random Forest-Based Decision-Tree Model for Sub-Acute Rumen Acidosis Management in Feedlots.",
+      "authors": [
+        "K Kaniyamattam",
+        "V Veettil",
+        "ME Rivera",
+        "L Diaz Batista",
+        "LO Tedeschi"
+      ],
+      "venue": "Journal of Animal Science 101",
+      "year": 2023,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:MXK_kJrjxJIC"
+    },
+    {
+      "title": "Hands-On Iii: Building Digital Twins for Precision Livestock Farming: Data Analytics and Big Data Challenges",
+      "authors": [
+        "J Tao",
+        "EDM Mendes",
+        "Y Pi",
+        "A Cassity",
+        "RR Male",
+        "K Kaniyamattam",
+        "..."
+      ],
+      "venue": "Journal of Animal Science 101 (Supplement_3), 75-76",
+      "year": 2023,
+      "citations": 2,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:8k81kl-MbHgC"
+    },
+    {
+      "title": "48. A conceptual agent-based model for the prediction of optimal nutrient utilization during the grow-finish phase for precision feeding of swine",
+      "authors": [
+        "K Kaniyamattam",
+        "JG Wiegert",
+        "LO Tedeschi"
+      ],
+      "venue": "Animal-science proceedings 13 (4), 568-569",
+      "year": 2022,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:3fE2CSJIrl8C"
+    },
+    {
+      "title": "Agent-Based Modeling: A Historical Perspective and Comparison to Other Modeling Techniques",
+      "authors": [
+        "K Kaniyamattam"
+      ],
+      "venue": "Journal of Animal Science 100 (Supplement_3), 32-33",
+      "year": 2022,
+      "citations": 6,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:Zph67rFs4hoC"
+    },
+    {
+      "title": "Benefits of preconditioning cattle under stochastic feedlot performance",
+      "authors": [
+        "LJV Chiu",
+        "LW Tauer",
+        "K Kaniyamattam",
+        "G Lhermie",
+        "YT Gröhn"
+      ],
+      "venue": "Journal of Agricultural and Applied Economics 54 (4), 656-673",
+      "year": 2022,
+      "citations": 5,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:hqOjcs7Dif8C"
+    },
+    {
+      "title": "Economics of reducing antibiotic usage for pathogen-specific clinical mastitis through genomic selection and disease management",
+      "authors": [
+        "K Kaniyamattam",
+        "J Hertl",
+        "LW Tauer",
+        "YT Grohn"
+      ],
+      "venue": "Preventive veterinary medicine 204, 105642",
+      "year": 2022,
+      "citations": 7,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:UebtZRa9Y70C"
+    },
+    {
+      "title": "O200 Mathematical modeling techniques for optimizing animal nutritional requirements and methane emissions from cattle",
+      "authors": [
+        "K Kaniyamattam",
+        "LO Tedeschi"
+      ],
+      "venue": "Animal-science proceedings 13 (3), 499-501",
+      "year": 2022,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:KlAtU1dfN6UC"
+    },
+    {
+      "title": "System economic costs of antibiotic use elimination in the US beef supply chain",
+      "authors": [
+        "K Kaniyamattam",
+        "LW Tauer",
+        "YT Gröhn"
+      ],
+      "venue": "Frontiers in Veterinary Science 8, 606810",
+      "year": 2021,
+      "citations": 6,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:LkGwnXOMwfcC"
+    },
+    {
+      "title": "A review of simulation analyses of economics and genetics for the use of in-vitro produced embryos and artificial insemination in dairy herds",
+      "authors": [
+        "AD Vries",
+        "K Kaniyamattam"
+      ],
+      "venue": "Animal Reproduction 17, e20200020",
+      "year": 2020,
+      "citations": 19,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:ufrVoPGSRksC"
+    },
+    {
+      "title": "Cost benefit analysis of automatic lameness detection systems in dairy herds: A dynamic programming approach",
+      "authors": [
+        "K Kaniyamattam",
+        "J Hertl",
+        "G Lhermie",
+        "U Tasch",
+        "R Dyer",
+        "YT Gröhn"
+      ],
+      "venue": "Preventive veterinary medicine 178, 104993",
+      "year": 2020,
+      "citations": 27,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:YsMSGLbcyi4C"
+    },
+    {
+      "title": "Economic effects of policy options restricting antimicrobial use for high risk cattle placed in US feedlots",
+      "authors": [
+        "G Lhermie",
+        "P Sauvage",
+        "LW Tauer",
+        "LV Chiu",
+        "K Kanyiamattam",
+        "A Ferchiou",
+        "..."
+      ],
+      "venue": "PLoS One 15 (9), e0239135",
+      "year": 2020,
+      "citations": 30,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:_FxGoFyzp5QC"
+    },
+    {
+      "title": "Economics of reducing antibiotic usage for clinical mastitis and metritis through genomic selection",
+      "authors": [
+        "K Kaniyamattam",
+        "A De Vries",
+        "LW Tauer",
+        "YT Gröhn"
+      ],
+      "venue": "Journal of dairy science 103 (1), 473-491",
+      "year": 2020,
+      "citations": 20,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:W7OEmFMy1HYC"
+    },
+    {
+      "title": "Shared Multidrug Resistance Patterns in Chicken-Associated Escherichia coli Identified by Association Rule Mining",
+      "authors": [
+        "CL Cazer",
+        "MA Al-Mamun",
+        "K Kaniyamattam",
+        "WJ Love",
+        "JG Booth",
+        "C Lanzas",
+        "..."
+      ],
+      "venue": "Frontiers in Microbiology 11, 1359",
+      "year": 2020,
+      "citations": 26,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:Tyk-4Ss8FVUC"
+    },
+    {
+      "title": "Antimicrobial policies in United States beef production: choosing the right instruments to reduce antimicrobial use and resistance under structural and market constraints",
+      "authors": [
+        "G Lhermie",
+        "L Verteramo Chiu",
+        "K Kaniyamattam",
+        "LW Tauer",
+        "HM Scott",
+        "..."
+      ],
+      "venue": "Frontiers in Veterinary Science 6, 245",
+      "year": 2019,
+      "citations": 24,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:Y0pCki6q_DkC"
+    },
+    {
+      "title": "An agent-based model evaluation of economic control strategies for paratuberculosis in a dairy herd",
+      "authors": [
+        "LJV Chiu",
+        "LW Tauer",
+        "MA Al-Mamun",
+        "K Kaniyamattam",
+        "RL Smith",
+        "..."
+      ],
+      "venue": "Journal of dairy science 101 (7), 6443-6454",
+      "year": 2018,
+      "citations": 28,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:UeHWp8X0CEIC"
+    },
+    {
+      "title": "Economic and genetic performance of various combinations of in vitro-produced embryo transfers and artificial insemination in a dairy herd",
+      "authors": [
+        "K Kaniyamattam",
+        "J Block",
+        "PJ Hansen",
+        "A De Vries"
+      ],
+      "venue": "Journal of dairy science 101 (2), 1540-1553",
+      "year": 2018,
+      "citations": 35,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:qjMakFHDy7sC"
+    },
+    {
+      "title": "Comparison between an exclusive in vitro–produced embryo transfer system and artificial insemination for genetic, technical, and financial herd performance",
+      "authors": [
+        "K Kaniyamattam",
+        "J Block",
+        "PJ Hansen",
+        "A De Vries"
+      ],
+      "venue": "Journal of dairy science 100 (7), 5729-5745",
+      "year": 2017,
+      "citations": 27,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:u-x6o8ySG0sC"
+    },
+    {
+      "title": "Estimation of genetic progress and profitability of dairy herds using varying proportions of invitro produced sexed embryos",
+      "authors": [
+        "K Kaniyamattam",
+        "J Block",
+        "PJ Hansen",
+        "A De Vries"
+      ],
+      "venue": "Journal of Animal Science 94, 185-185",
+      "year": 2016,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:zYLM7Y9cAGgC"
+    },
+    {
+      "title": "Genetic, Technical, and Financial Performance of Dairy Herds Using an In-Vitro Produced Embryo Transfer System",
+      "authors": [
+        "K Kaniyamattam"
+      ],
+      "venue": "University of Florida",
+      "year": 2016,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:M3NEmzRMIkIC"
+    },
+    {
+      "title": "Stochastic dynamic simulation modeling including multitrait genetics to estimate genetic, technical, and financial consequences of dairy farm reproduction and selection strategies",
+      "authors": [
+        "K Kaniyamattam",
+        "MA Elzo",
+        "JB Cole",
+        "A De Vries"
+      ],
+      "venue": "Journal of dairy science 99 (10), 8187-8202",
+      "year": 2016,
+      "citations": 31,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:9yKSN-GCB0IC"
+    },
+    {
+      "title": "Exposure to colony stimulating factor 2 during preimplantation development increases postnatal growth in cattle",
+      "authors": [
+        "J Kannampuzha‐Francis",
+        "AC Denicol",
+        "B Loureiro",
+        "K Kaniyamattam",
+        "..."
+      ],
+      "venue": "Molecular Reproduction and Development 82 (11), 892-897",
+      "year": 2015,
+      "citations": 58,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:IjCSPb-OGe4C"
+    },
+    {
+      "title": "Agreement between milk fat, protein, and lactose observations collected from the Dairy Herd Improvement Association (DHIA) and a real-time milk analyzer",
+      "authors": [
+        "K Kaniyamattam",
+        "A De Vries"
+      ],
+      "venue": "Journal of dairy science 97 (5), 2896-2908",
+      "year": 2014,
+      "citations": 57,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:2osOgNQ5qMEC"
+    },
+    {
+      "title": "Effect of feeding according to energy balance on performance, nutrient excretion, and feeding behavior of early lactation dairy cows",
+      "authors": [
+        "E Maltz",
+        "LF Barbosa",
+        "P Bueno",
+        "L Scagion",
+        "K Kaniyamattam",
+        "LF Greco",
+        "..."
+      ],
+      "venue": "Journal of Dairy Science 96 (8), 5249-5266",
+      "year": 2013,
+      "citations": 69,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:u5HHmVD_uO8C"
+    },
+    {
+      "title": "Weighted Cost of Capital on Florida Dairy Farms",
+      "authors": [
+        "A De Vries",
+        "K Kaniyamattam",
+        "D Galligan"
+      ],
+      "venue": "Proceedings 48th Florida Dairy Production Conference 11",
+      "year": 2012,
+      "citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:d1gkVwhDpl0C"
+    },
+    {
+      "title": "Economics of using automatic lameness detection system for diagnosing different severity levels of lameness in dairy cows: A dynamic programming approach",
+      "authors": [
+        "K Kaniyamattam",
+        "J Hertl",
+        "G Lhermie",
+        "U Tasch",
+        "D Tasch",
+        "N Neerchal",
+        "..."
+      ],
+      "venue": "PRECISION LIVESTOCK FARMING'19, 389",
+      "year": null,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:roLk4NBRz8UC"
+    },
+    {
+      "title": "ExtensionBot’s AI Impacts on Extension and Advisory Services",
+      "authors": [
+        "R Strong",
+        "B Herbert",
+        "M Bhandari",
+        "J Landivar-Bowles",
+        "L Tedeschi",
+        "..."
+      ],
+      "venue": "27th European Seminar on Extension & Education, 372",
+      "year": null,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:NMxIlDl6LWMC"
+    },
+    {
+      "title": "Individual Animal Identification and Feed Grading Using Computer Vision and Unsupervised Statistical Clustering",
+      "authors": [
+        "Y Pi",
+        "J Wooley",
+        "EDM Mendes",
+        "K Kaniyamattam",
+        "LO Tedeschi",
+        "J Tao",
+        "..."
+      ],
+      "venue": "Available at SSRN 4905790",
+      "year": null,
+      "citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nJoDXMMAAAAJ&pagesize=100&citation_for_view=nJoDXMMAAAAJ:YOwf2qJgpHMC"
+    }
+  ]
+}

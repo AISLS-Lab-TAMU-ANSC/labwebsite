@@ -25,7 +25,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -61,7 +61,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
@@ -69,7 +69,11 @@ body {
     display: flex;
     align-items: center;
     gap: 1rem;
+
+    text-decoration: none;
+    color: inherit;
 }
+
 
 .tamu-logo {
     height: 40px;
@@ -129,15 +133,41 @@ body {
 .hero {
     background: linear-gradient(135deg, var(--aggie-maroon) 0%, #6d1a1a 100%);
     color: var(--aggie-white);
-    padding: 140px 0 80px; /* extra top padding to fully clear fixed navbar */
+    padding: 100px 0 40px; /* extra top padding to fully clear fixed navbar */
     text-align: center;
     margin-top: 0; /* remove margin that caused white gap */
 }
 
 .hero-content {
-    max-width: 800px;
+    max-width: 1050px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+/* Homepage hero: just the banner image, full-bleed, no text or buttons
+   overlaid - the image carries the title itself. Pushed down by the fixed
+   navbar's height (72px) so its top edge isn't hidden underneath it. */
+.hero-with-image {
+    padding: 0;
+    margin-top: 72px;
+}
+
+.hero-banner-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
 
 .hero h1 {
@@ -267,6 +297,66 @@ h2 {
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
     text-align: left;
+}
+
+/* Photo Showcase Sections (image + text, alternating) */
+.showcase-section {
+    background: var(--aggie-white);
+    padding: 4rem 0;
+}
+
+.showcase-grid {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.showcase-reverse .showcase-media {
+    order: 2;
+}
+
+.showcase-media {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--shadow-hover);
+    line-height: 0;
+}
+
+.showcase-image {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.showcase-kicker {
+    display: inline-block;
+    color: var(--aggie-maroon);
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    margin-bottom: 0.75rem;
+    border-bottom: 3px solid var(--aggie-maroon);
+    padding-bottom: 0.25rem;
+}
+
+.showcase-text h2 {
+    text-align: left;
+    margin-bottom: 1.25rem;
+}
+
+.showcase-text p {
+    color: var(--text-dark);
+    line-height: 1.8;
+    font-size: 1.05rem;
+    margin-bottom: 1.25rem;
+}
+
+.showcase-text p:last-child {
+    margin-bottom: 0;
 }
 
 .vision-mission-card p {
@@ -535,6 +625,15 @@ footer {
     font-size: 1.3rem;
 }
 
+.team-member h3 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.team-member h3 a:hover {
+    text-decoration: underline;
+}
+
 .team-member .role {
     color: var(--text-light);
     font-weight: 600;
@@ -653,6 +752,127 @@ footer {
     margin-bottom: 1.5rem;
     line-height: 1.8;
     color: var(--text-dark);
+}
+
+.bio-text h3 {
+    color: var(--aggie-maroon);
+    text-align: left;
+    margin-bottom: 0.25rem;
+}
+
+.bio-text .role {
+    color: var(--text-light);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+/* Lab Mentor spotlight (Team page): large boxed photo + social icons on the
+   left, name/bio/Google Scholar link on the right. */
+.mentor-spotlight {
+    display: grid;
+    grid-template-columns: 420px 1fr;
+    gap: 4rem;
+    align-items: start;
+    width: 100%;
+}
+
+.mentor-photo-wrap {
+    text-align: center;
+}
+
+.mentor-photo {
+    width: 100%;
+    height: 420px;
+    border-radius: 0;
+    overflow: hidden;
+    border: 4px solid var(--aggie-maroon);
+    box-shadow: var(--shadow-hover);
+}
+
+.mentor-photo .bio-image {
+    border-radius: 0;
+}
+
+.mentor-social {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+}
+
+.mentor-social-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 2px solid var(--aggie-maroon);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    color: var(--aggie-maroon);
+}
+
+.mentor-social-icon:hover {
+    background-color: var(--aggie-maroon);
+    color: var(--aggie-white);
+}
+
+.mentor-social-icon svg {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+}
+
+.mentor-text {
+    text-align: left;
+}
+
+.mentor-kicker {
+    display: inline-block;
+    color: var(--aggie-maroon);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.85rem;
+    margin-bottom: 0.75rem;
+}
+
+.mentor-text h3 {
+    text-align: left;
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.mentor-text .role {
+    text-align: left;
+    color: var(--text-light);
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+}
+
+.mentor-text p {
+    text-align: left;
+    color: var(--text-dark);
+    line-height: 1.8;
+    margin-bottom: 1.25rem;
+}
+
+.mentor-text p a {
+    color: var(--aggie-maroon);
+    font-weight: 600;
+}
+
+.mentor-scholar-btn {
+    display: inline-block;
+    margin-top: 0.5rem;
+    background-color: transparent;
+    color: var(--aggie-maroon);
+    border: 2px solid var(--aggie-maroon);
+}
+
+.mentor-scholar-btn:hover {
+    background-color: var(--aggie-maroon);
+    color: var(--aggie-white);
 }
 
 .education-section {
@@ -790,6 +1010,238 @@ footer {
     left: 0;
 }
 
+/* Google Scholar-synced Publications List */
+.pub-search-wrap {
+    margin-top: 1.5rem;
+}
+
+.pub-search-input {
+    width: 100%;
+    max-width: 480px;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    font-family: inherit;
+    color: var(--text-dark);
+    background: var(--aggie-white);
+    border: 1px solid #d8dade;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+}
+
+.pub-search-input:focus {
+    outline: none;
+    border-color: var(--aggie-maroon);
+}
+
+.pub-hidden {
+    display: none;
+}
+
+.pub-status {
+    color: var(--text-light);
+    font-size: 0.95rem;
+    margin-top: 1.5rem;
+}
+
+/* Photo Gallery (extracted from Presentation2.pptx via scripts/extract_pptx_photos.py) */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+}
+
+.gallery-thumb {
+    position: relative;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    cursor: pointer;
+}
+
+.gallery-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.gallery-thumb:hover img {
+    transform: scale(1.06);
+}
+
+.gallery-sentinel {
+    height: 1px;
+}
+
+.gallery-lightbox {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.88);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    z-index: 2000;
+}
+
+.gallery-lightbox img {
+    max-width: 90vw;
+    max-height: 85vh;
+    border-radius: 8px;
+    box-shadow: var(--shadow-hover);
+}
+
+.gallery-lightbox-close {
+    position: absolute;
+    top: 1.25rem;
+    right: 1.75rem;
+    width: 44px;
+    height: 44px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.15);
+    color: var(--aggie-white);
+    font-size: 1.75rem;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.gallery-lightbox-close:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.gallery-lightbox-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 52px;
+    height: 52px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.15);
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.gallery-lightbox-nav:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.gallery-lightbox-nav::before {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-top: 3px solid var(--aggie-white);
+    border-right: 3px solid var(--aggie-white);
+}
+
+.gallery-lightbox-prev {
+    left: 1.5rem;
+}
+
+.gallery-lightbox-prev::before {
+    transform: rotate(-135deg);
+    margin-left: 6px;
+}
+
+.gallery-lightbox-next {
+    right: 1.5rem;
+}
+
+.gallery-lightbox-next::before {
+    transform: rotate(45deg);
+    margin-right: 6px;
+}
+
+/* Higher specificity than ".gallery-lightbox { display: flex }" above,
+   so this reliably wins regardless of rule order in the file. */
+.gallery-lightbox.pub-hidden {
+    display: none;
+}
+
+.pub-year-group {
+    margin-top: 2.5rem;
+}
+
+.pub-year-heading {
+    color: var(--aggie-maroon);
+    font-size: 1.5rem;
+    border-bottom: 2px solid var(--aggie-maroon);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.pub-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.pub-card {
+    background: var(--aggie-light-gray);
+    padding: 1.5rem 1.75rem;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pub-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-hover);
+}
+
+.pub-title {
+    display: block;
+    color: var(--aggie-maroon);
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-decoration: none;
+    line-height: 1.4;
+}
+
+.pub-title:hover {
+    text-decoration: underline;
+}
+
+.pub-authors {
+    color: var(--text-dark);
+    font-size: 0.92rem;
+    margin-top: 0.5rem;
+}
+
+.pub-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 0.6rem;
+}
+
+.pub-venue {
+    color: var(--text-light);
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.pub-citation-badge {
+    display: inline-block;
+    background: var(--aggie-white);
+    color: var(--aggie-maroon);
+    border: 1px solid var(--aggie-maroon);
+    padding: 0.15rem 0.7rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
 /* Contact Page Button Styles */
 .contact-card .btn {
     margin-top: 1.5rem;
@@ -893,6 +1345,24 @@ footer {
         text-align: center;
     }
 
+    .mentor-spotlight {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .mentor-photo {
+        max-width: 300px;
+        height: 300px;
+        margin: 0 auto;
+    }
+
+    .mentor-text,
+    .mentor-text h3,
+    .mentor-text .role,
+    .mentor-text p {
+        text-align: center;
+    }
+
     .specializations-grid,
     .product-cards,
     .decisions-grid,
@@ -900,6 +1370,19 @@ footer {
     .news-grid,
     .publications-list {
         grid-template-columns: 1fr;
+    }
+
+    .showcase-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .showcase-reverse .showcase-media {
+        order: 0;
+    }
+
+    .showcase-text h2 {
+        text-align: center;
     }
 
     .team-grid,
@@ -945,6 +1428,11 @@ footer {
 
     .hero {
         padding: 100px 0 60px;
+    }
+
+    .hero-with-image {
+        padding: 0;
+        margin-top: 62px;
     }
 
     .hero h1 {

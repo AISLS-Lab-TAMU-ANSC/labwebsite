@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photos | AI Laboratory for Sustainable Livestock Systems</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="nav-logo">
+                    <img src="images/tamu-logo.png" alt="Texas A&M University Logo" class="tamu-logo">
+                    <h2>AISLS Lab</h2>
+                </a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="research.html" class="nav-link">Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="team.html" class="nav-link">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="publications-and-awards.html" class="nav-link">Publications & Awards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="videos_podcasts.html" class="nav-link">Videos & Podcasts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="photos.html" class="nav-link active">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="news.html" class="nav-link">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="aisfs.html" class="nav-link">AISFS Club</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Photos</h1>
+                <p class="hero-subtitle">Moments from lab events, conferences, and outreach</p>
+            </div>
+        </section>
+
+        <!-- Photo Gallery Section (auto-loaded in batches from data/gallery.json) -->
+        <section class="publications-section">
+            <div class="container">
+                <p id="gallery-status" class="pub-status">Loading photos&hellip;</p>
+                <div id="gallery-grid" class="gallery-grid"></div>
+                <div id="gallery-sentinel" class="gallery-sentinel"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Information</h3>
+                    <p>Texas A&M University<br>
+                    Department of Animal Science<br>
+                    AgriLife Research</p>
+                </div>
+                <div class="footer-section">
+                    <p>Dr. Karun Kaniyamattam<br>
+                    karun.kaniyamattam@ag.tamu.edu<br>
+                    979-314-7785</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Location</h3>
+                    <p>Kleberg 432E<br>
+                    Texas A&M University<br>
+                    College Station, TX</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AI Laboratory for Sustainable Livestock Systems. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="gallery.js" defer></script>
+</body>
+</html>

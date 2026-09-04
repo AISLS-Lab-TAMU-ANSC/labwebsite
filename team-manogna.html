@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manogna - Projects | AI Laboratory for Sustainable Livestock Systems</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="nav-logo">
+                    <img src="images/tamu-logo.png" alt="Texas A&M University Logo" class="tamu-logo">
+                    <h2>AISLS Lab</h2>
+                </a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="research.html" class="nav-link">Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="team.html" class="nav-link">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="publications-and-awards.html" class="nav-link">Publications &amp; Awards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="videos_podcasts.html" class="nav-link">Videos &amp; Podcasts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="photos.html" class="nav-link">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="news.html" class="nav-link">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="aisfs.html" class="nav-link">AISFS Club</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Manogna</h1>
+                <p class="hero-subtitle">Researcher &mdash; Computer Vision &amp; Circular Dairy Bioeconomy</p>
+            </div>
+        </section>
+
+        <!-- Back to Team -->
+        <section style="padding-top: 2rem;">
+            <div class="container">
+                <p><a href="team.html" onclick="if (document.referrer.indexOf(&quot;team.html&quot;) !== -1) { history.back(); return false; }">&larr; Back to Team</a></p>
+            </div>
+        </section>
+
+        <!-- Profile Section -->
+        <section class="bio-section">
+            <div class="container">
+                <div class="bio-content">
+                    <div class="bio-photo">
+                        <img src="images/Manogna TAMU.jpeg" alt="Manogna" class="bio-image">
+                    </div>
+                    <div class="bio-text">
+                        <h3>Manogna</h3>
+                        <p class="role">Researcher &ndash; Computer Vision &amp; Circular Dairy Bioeconomy</p>
+                        <p>Manogna develops computer vision pipelines for early BRD detection in beef cattle and contributes to the ViCBio DM agent-based model for circular dairy bioeconomy.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="research-products">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="research-grid">
+                    <div class="research-item">
+                        <div class="research-image">
+                            <img src="images/Manogna_Computer_Vision_BRD.png" alt="Instance segmentation and activity timeline tracking of cattle for BRD monitoring" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                        </div>
+                        <div class="research-content">
+                            <h3>Computer Vision for Hybrid Intelligent Modeling of BRD</h3>
+                            <p>A computer vision pipeline that detects and segments each cow in video, tracks it individually, and monitors behaviors like feeding, standing, and walking over time to catch early signs of illness by comparing each animal to its own baseline rather than the herd average. Fuses continuous visual identification with independent Ceres Tag sensor data so no single signal is a point of failure.</p>
+                        </div>
+                    </div>
+
+                    <div class="research-item">
+                        <div class="research-image">
+                            <img src="images/Manogna_ViCBio_DM.png" alt="ViCBio DM agent-based virtual circular bioeconomy decision model showing inputs, processing agents, and outputs" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                        </div>
+                        <div class="research-content">
+                            <h3>Strategic Analytics for Circular Dairy Bioeconomy</h3>
+                            <p>Contributed to ViCBio DM, an agent-based virtual farm modeling nutrient, water, energy, and by-product loops for sustainable milk production, alongside Dr. Megha Poyyara Saiju.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Information</h3>
+                    <p>Texas A&M University<br>
+                    Department of Animal Science<br>
+                    AgriLife Research</p>
+                </div>
+                <div class="footer-section">
+                    <p>Dr. Karun Kaniyamattam<br>
+                    karun.kaniyamattam@ag.tamu.edu<br>
+                    979-314-7785</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Location</h3>
+                    <p>Kleberg 432E<br>
+                    Texas A&M University<br>
+                    College Station, TX</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AI Laboratory for Sustainable Livestock Systems. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
