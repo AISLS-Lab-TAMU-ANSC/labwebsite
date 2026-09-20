@@ -715,6 +715,32 @@ footer {
     line-height: 1.6;
 }
 
+/* News grid: fixed-width cards, 3 per row, incomplete rows stay centered */
+.news-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.news-grid .research-item {
+    flex: 0 1 350px;
+    max-width: 350px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-grid .research-content {
+    flex: 1;
+    overflow: hidden;
+}
+
+.news-grid .research-content p {
+    margin: 0 0 0.5rem 0;
+}
+
 /* Biography Page */
 .bio-section {
     background: var(--aggie-white);
