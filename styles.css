@@ -741,6 +741,33 @@ footer {
     margin: 0 0 0.5rem 0;
 }
 
+/* Video card: swap the fixed image height for a 16:9 box so the
+   embed fills the card width with no cropping or letterboxing. */
+.research-image.video-embed {
+    height: auto;
+}
+
+.research-image.video-embed iframe {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 0;
+    border-radius: 8px;
+}
+
+.research-item .video-link {
+    display: inline-block;
+    margin-top: 0.75rem;
+    font-size: 0.9rem;
+    color: var(--aggie-maroon);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.research-item .video-link:hover {
+    text-decoration: underline;
+}
+
 /* Biography Page */
 .bio-section {
     background: var(--aggie-white);
