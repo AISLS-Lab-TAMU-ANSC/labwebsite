@@ -743,6 +743,13 @@ footer {
 
 /* Video card: swap the fixed image height for a 16:9 box so the
    embed fills the card width with no cropping or letterboxing. */
+/* Keep a lone video card from stretching across the whole grid. */
+.research-item.video-card {
+    width: 100%;
+    max-width: 880px;
+    justify-self: center;
+}
+
 .research-image.video-embed {
     height: auto;
 }
